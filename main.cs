@@ -1,5 +1,4 @@
 using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -69,8 +68,6 @@ class Program
                 }
             }
         } while(fan != 0);
-
         Console.WriteLine("Turning the fan off...");
     }
-
 }
